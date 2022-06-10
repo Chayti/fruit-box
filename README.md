@@ -1,4 +1,2 @@
-# shopping-cart
-# shopping-cart
-# pin-matcher
 # fruit-box
+![fruit-box-UI](fruit-box-UI.png)
