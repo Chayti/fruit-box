@@ -15,8 +15,8 @@ function updateProductNumber(product, price, isIncreasing) {
 
 
 function calculateTotal() {
-    const fruitTotal = getInputValue('fruit', 1219);
-    const fruit1Total = getInputValue('fruit1', 59);
+    const fruitTotal = getInputValue('fruit', 30);
+    const fruit1Total = getInputValue('fruit1', 20);
     const subTotal = fruitTotal + fruit1Total;
     const tax = subTotal * .1;
     const totalPrice = subTotal + tax;
@@ -38,20 +38,20 @@ function getInputValue(product, price) {
 
 // handle fruit increase decrease events
 document.getElementById('fruit-plus').addEventListener('click', function () {
-    updateProductNumber('fruit', 1219, true);
+    updateProductNumber('fruit', 30, true);
 });
 
 document.getElementById('fruit-minus').addEventListener('click', function () {
-    updateProductNumber('fruit', 1219, false);
+    updateProductNumber('fruit', 30, false);
 })
 
 // handle fruit1 increase decrease events
 document.getElementById('fruit1-plus').addEventListener('click', function () {
-    updateProductNumber('fruit1', 59, true);
+    updateProductNumber('fruit1', 20, true);
 });
 
 document.getElementById('fruit1-minus').addEventListener('click', function () {
-    updateProductNumber('fruit1', 59, false);
+    updateProductNumber('fruit1', 20, false);
 })
 
 
