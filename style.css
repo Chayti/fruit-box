@@ -1,0 +1,54 @@
+body{
+	background-image: url("images/bg.jpg");
+}
+.box{
+	margin: 100px 0;
+	background-color: rgba(245, 245, 220, 0.863);
+	padding: 60px 0;
+}
+.total-price{
+	padding-bottom: 15px;
+}
+button{
+	line-height: 1em !important;
+}
+.box-item{
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 15px 20px;
+	margin-bottom: 20px;
+}
+.box-item img{
+	width: 200px;
+}
+.box-item h5{
+    padding: 0 45px;
+}
+.box-item .remove-item{
+	width: 35px!important;
+}
+.btn-default{
+	background-color: #fff;
+}
+.box-item .form-control{
+	background-color: #F6F5FA;
+	border: none;
+    width: 65px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.input-group{
+	width: 80%;
+	height: 25px;
+	flex-wrap: nowrap;
+}
+.status{
+	text-align: right;
+}
+.check-out{
+    float: right;
+    padding: 10px 30px;
+	font-size: 19px;
+	background-color: #2FBE70;
+	border: none;
+}
